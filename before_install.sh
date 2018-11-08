@@ -15,7 +15,7 @@ touch ~/.pebble-sdk/NO_TRACKING
 export PEBBLE_SDK=pebble-sdk-4.5-linux64
 
 # Get the Pebble SDK and toolchain
-if [ ! -d "$HOME/pebble-dev" ]; then
+if [ ! -d "$HOME/pebble-dev/pebble-tool" ]; then
   wget https://developer.rebble.io/s3.amazonaws.com/assets.getpebble.com/pebble-tool/${PEBBLE_SDK}.tar.bz2
 
   # Extract the SDK
