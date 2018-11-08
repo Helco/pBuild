@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
 echo "Building Pebble project..."
-cd ~/build/${PEBBLE_PROJECT_PATH}
+cd "${TRAVIS_BUILD_DIR}/test-app"
 # pebble build isn't used because it fails
 yes | ~/pebble-dev/${PEBBLE_SDK}/bin/pebble build
