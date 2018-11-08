@@ -1,5 +1,5 @@
 # pBuild for Travis-CI
-[![Build Status](https://travis-ci.org/sGerli/pBuild.svg?branch=master)](https://travis-ci.org/sGerli/pBuild)
+[![Build Status](https://travis-ci.org/Helco/pBuild.svg?branch=master)](https://travis-ci.org/Helco/pBuild)
 
 PebbleBuild is a tool for building pebble projects in Travis CI.
 It is really useful when using the Pebble SDK.
