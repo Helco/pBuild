@@ -28,3 +28,7 @@ if [ ! -d "$HOME/pebble-dev/pebble-tool" ]; then
   pip install -r requirements.txt
   deactivate
 fi
+
+if [ ! -d "$HOME/.pebble-sdk/SDKs/4.3" ]; then
+  yes | ${HOME}/pebble-sdk/bin/pebble sdk install https://binaries.rebble.io/sdk-core/release/sdk-core-4.3.tar.bz2
+fi
