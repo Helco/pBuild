@@ -6,6 +6,7 @@ cache:
   directories:
     - $HOME/pebble-dev
     - $HOME/.cache/pip
+    - $HOME/.pebble-sdk
 addons:
   apt:
     packages:
