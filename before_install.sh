@@ -19,10 +19,10 @@ if [ ! -d "$HOME/pebble-dev/pebble-tool" ]; then
   wget https://developer.rebble.io/s3.amazonaws.com/assets.getpebble.com/pebble-tool/${PEBBLE_SDK}.tar.bz2
 
   # Extract the SDK
-  tar -jxf ${PEBBLE_SDK}.tar.bz2 -C ~/pebble-dev/
+  tar -jxf ${PEBBLE_SDK}.tar.bz2 -C ~/pebble-dev/ --strip-components 1
 
   # Install the Python library dependencies locally
-  cd ~/pebble-dev/${PEBBLE_SDK}
+  cd ~/pebble-dev/
   virtualenv --no-site-packages .env
   source .env/bin/activate
   pip install -r requirements.txt
