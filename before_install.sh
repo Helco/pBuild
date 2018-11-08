@@ -30,5 +30,5 @@ if [ ! -d "$HOME/pebble-dev/pebble-tool" ]; then
 fi
 
 if [ ! -d "$HOME/.pebble-sdk/SDKs/4.3" ]; then
-  yes | ${HOME}/pebble-dev/bin/pebble sdk install https://binaries.rebble.io/sdk-core/release/sdk-core-4.3.tar.bz2
+  yes | ${HOME}/pebble-dev/bin/pebble sdk install http://binaries.rebble.io/sdk-core/release/sdk-core-4.3.tar.bz2
 fi
